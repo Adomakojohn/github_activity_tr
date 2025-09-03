@@ -1,0 +1,17 @@
+{
+  "name": "github_event_tracker",
+  "version": "1.0.0",
+  "description": "a simple cli tool for getting and tracking github events/stats",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sirr",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "chalk": "^5.6.0",
+    "commander": "^14.0.0",
+    "moment": "^2.30.1"
+  }
+}
