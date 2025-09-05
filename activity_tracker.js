@@ -1,7 +1,8 @@
-import axios from "axios";
-import promptSync from "prompt-sync";
+const prompt = require("prompt-sync")({ sigint: true });
+const axios = require("axios");
 
-const prompt = promptSync();
+
+
 
 async function fetchActivity(username) {
   try {
